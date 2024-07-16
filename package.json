@@ -1,8 +1,17 @@
 {
-  "name": "wj-icons",
-  "version": "1.0.0",
-  "description": "WebJET Icons",
-  "main": "index.js",
-  "author": "",
-  "license": "ISC"
+  "name": "vite-project",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "terser": "^5.31.2",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0",
+    "wj-elements": "^0.1.58"
+  }
 }
