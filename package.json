@@ -1,8 +1,14 @@
 {
-  "name": "vite-project",
-  "private": true,
-  "version": "0.0.0",
+  "name": "wje-icons",
+  "private": false,
+  "version": "0.0.1",
   "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/icon.js",
+  "files": [
+    "dist/assets"
+  ],
+
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
